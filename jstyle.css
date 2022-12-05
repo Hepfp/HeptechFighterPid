@@ -1,0 +1,82 @@
+body{
+  background-image:url('bg.png');
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+#n{
+  width: 290px;
+  height: 30px;
+  cursor: text;
+}
+#num{
+  width: 290px;
+  height: 30px;
+  cursor: text;
+}
+#e{
+  width: 290px;
+  height: 30px;
+  cursor: text;
+}
+#s{
+  width: 290px;
+  height: 30px;
+  cursor: text;
+}
+#psw{
+  width: 290px;
+  height: 30px;
+  cursor: text;
+  cursor: all-scroll;
+}
+#oc{
+  width: 290px;
+  height: 30px;
+  cursor: text;
+}
+.container{
+  position: relative;
+  max-width: 900px;
+  width: 95%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: white;
+  position: static;
+}
+.sub{
+  width: 280px;
+  height: 40px;
+  border-radius: 60px;
+  border: none;
+  background-color: deepskyblue;
+  box-shadow: 10px 6px 1rem  black;
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 17px;
+}
+.sub:hover{
+  background-color: blue;
+  
+}
+#s2{
+  width: 290px;
+  height: 30px;
+}
+.fotter{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
